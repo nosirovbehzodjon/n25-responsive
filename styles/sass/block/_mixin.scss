@@ -1,0 +1,6 @@
+@mixin card($bg-color, $height, $r-border) {
+    background-color: $bg-color;
+    border-radius: $r-border;
+    height: $height;
+    font-family: $primary-font;
+}

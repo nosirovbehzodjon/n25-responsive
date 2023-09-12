@@ -1,0 +1,23 @@
+@import "./mixin";
+.hero {
+    background-color: $secondary-color;
+}
+.card1 {
+    @include card(#434344,200px,45px);
+}
+
+.card2 {
+    @include card(#434344,400px,15px);
+}
+.card3 {
+    @include card(#434344,200px,45px);
+}
+.card4 {
+    @include card(#434344,200px,45px);
+}
+.card5 {
+    @include card(#434344,200px,45px);
+}
+.card6 {
+    @include card(#434344,200px,45px);
+}
